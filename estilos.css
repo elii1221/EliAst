@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+ul{
+    list-style-type: none;
+}
+body{
+    background: #ffffff; 
+    background-image: url(img/grungy-gray-marble-textured-background.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+#barra{
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 16px;
+    padding-bottom: 30px;
+    margin-top: -20px;
+
+}
+
+nav{
+    background-color: #B9D2F7;
+
+}
+ul {
+    margin: auto;;
+    color: #F6FAFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45%;
+    margin-top: -100px;
+
+}
+#inicio{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    background-color: #335A9A;
+    width: 120px;
+    margin: auto;
+    padding-top:12px;
+    padding-left: 36px;
+    padding-bottom: 12px;
+    border-radius: 15px
+}
+#somos{
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        background-color: #7DACEC;
+        width: 200px;
+        margin: auto;
+        padding-top:12px; 
+        padding-left: 30px;
+        padding-bottom: 12px;
+        border-radius: 15px
+}
+#servicios{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    background-color: #7DACEC;
+    width: 140px;
+    margin: auto;
+    padding-top:12px; 
+    padding-left: 30px;
+    padding-bottom: 12px;
+    border-radius: 15px 
+}
+#contactos{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    background-color: #7DACEC;
+    width: 140px;
+    margin: auto;
+    padding-top:12px; 
+    padding-left: 28px;
+    padding-bottom: 12px;
+    border-radius: 15px 
+}
+#oficina_principal{
+    width: 100%;
+    margin-top: -40px;
+
+}
+h1 #contacto{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+section h2{
+    margin: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #335A9A;
+    width: 600px;
+    padding-left: 25px;
+    text-justify: auto;
+    margin-top: 70px;
+    
+
+}
+.btn{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    position: absolute;
+    top: 85%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    padding: 14px 28px;
+    background-color: #B9D2F7; 
+    color: #4577c2;
+    border: none;
+    cursor: pointer;
+    font-size: 28px;
+    border-radius: 15px;
+
+}
+.cont-img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.fotos{
+    margin-top: 50px;
+}
+figure{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin: 0;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    width: 427px;
+    height: 427px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(34, 40, 48, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #fff;
+    font-size: 18px;
+    opacity: 0; 
+    transition: opacity 0.4s ease; 
+    text-align: center;
+}
+
+
+.gallery-item:hover img {
+    transform: scale(1.1); 
+}
+
+.gallery-item:hover .overlay {
+    opacity: 1; 
+}
+
+footer{ 
+    background-color:#B9D2F7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #335A9A;
+    margin-top: 40px;
+}
+
+.pie{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.logoss{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
